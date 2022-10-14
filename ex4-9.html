@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>플렉스 예제3</title>
+    <style>
+    .fleex{
+        display: flex;
+        width: 700px;
+        height: 200px;
+        background-color: bisque;
+        flex-wrap:wrap;
+        }
+    .fleex div {
+        background-color: deepskyblue;
+        width: 100px;
+        height: 30px;
+        margin: 10px;
+        }
+    #good1 {
+        align-self:flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="fleex">
+    <div>flex</div>
+    <div>flex</div>
+    <div id="good1">flex</div>
+    <div>flex</div>
+    <div>flex</div>
+    </div>    
+</body>
+</html>

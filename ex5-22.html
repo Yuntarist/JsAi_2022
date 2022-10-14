@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>숙제</title>
+    <style>
+        .circle
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 90px;
+            margin-bottom: 250px;
+            font-size: 30px;
+            color: blue;
+            text-align: center;
+            line-height: 100px;
+        }
+        input:checked +.circle 
+            {
+                 animation: circle 5s linear infinite;
+            }
+        @keyframes circle {
+            25% {
+                    transform: translateY(285px) 
+                               rotate(90deg);
+                }
+            50% {
+                    transform: translate(205px,630px) 
+                               rotate(180deg);
+                }
+            100% {
+                    transform: translate(500px,630px) 
+                               rotate(360deg);
+                 }
+                          }
+        .triangle 
+        {
+            width: 0px;
+            height: 0px;
+            border-bottom: 385px solid #14acff;
+            border-left: 0px solid transparent;
+            border-right: 230px solid transparent;
+        }
+        
+    </style>
+</head>
+<body>
+   <input type="checkbox">
+    <div class="circle">공</div>
+    <div class="triangle"></div>
+    
+</body>
+</html>
