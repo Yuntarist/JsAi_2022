@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>박스레이아웃</title>
+    <style>
+/*  문제 조건 처음부터 봤으면 이렇게 안했지     */
+        body
+            {
+             display: flex;
+             justify-content: center;    
+             text-align: center;
+            }
+        h1
+            {
+             background-color: #7a4f00;
+             height: 100px;
+             width: 500px;
+             border-radius: 15px;    
+            }
+        
+        #main1
+            {
+             background-color: brown;
+             height: 300px;
+             width: 75px;
+             border-radius: 15px;   
+             float: left;    
+             margin-right: 15px;
+            }
+        #main2
+            {
+             background-color: yellow;
+             height: 300px;
+             width: 411px;
+             border-radius: 15px;   
+             float: left;
+            }
+        footer 
+            {
+             background-color: #7a4f00;
+             height: 100px;
+             width: 500px;
+             border-radius: 15px;
+             margin-top: 345px;
+            }
+    </style>
+</head>
+<body>
+<!-- body 안 전체를 조정 하려면 범위를 언제나 확인할것   -->
+    <div class="container">
+    <h1></h1>
+    <main id="main1"></main>
+    <main id="main2"></main>
+    <footer></footer>
+    </div>
+</body>
+</html>

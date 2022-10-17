@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css연습 3</title>
+    <style>
+        body
+            {
+             background-color: #ff9eaa;
+             padding-top: 8rem;
+             display: flex;
+             justify-content: center;    
+            }
+        .profile   
+            {
+             width: 8rem;
+             height: 8rem;
+             background-image: url(img/14615147_1.jpg);
+             background-size: 120px;
+             border-radius: 50%;
+             box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);    
+            }
+        .profile:hover
+            {
+             background-color: #efb10a;
+             transform: scale(1.1);
+            }
+        .banner
+            {
+             background-image: url(img/flame-circle_1160-750.jpg);
+             display: flex;
+             justify-content: center;    
+            }
+        .card
+            {
+             background-color:#fff;
+             max-width: 360px;
+             overflow: hidden;
+             border-radius: 2rem;
+             box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
+             transform: translateY(50%);
+            }
+        .name
+            {
+             text-align: center;
+             padding-top: 60px;    
+            }
+        .follow-btn
+            {
+             padding: 0 2rem;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+            }
+        .follw-btn button
+            {
+             font-size: medium;
+             font-weight: bold;
+             background-color: #ffd01a;
+             border: none;
+             padding: 1rem;
+             outline: none;
+             border-radius: 50px;    
+            }
+        .desc
+            {
+             padding: 1.5rem;    
+            }
+    </style>
+</head>
+<body>
+<!--    div.card>div.banner+h2.name{윤현석}>div.follw-btn+div.desc-->
+      <div class="card">
+          <div class="banner">
+          <div class="profile"></div>          
+          </div>
+          <h2 class="name">YOON</h2>
+          <div class="follow-btn">
+              <button>Follow</button>
+          </div>
+          <div class="desc">책 구매해주셔서 감사합니다. 노력하는 당신에게 축복을(?) 그리고 더 나은 여러분이 되시길 기원합니다! 물론 저도...
+          </div>
+      </div>
+</body>
+</html>
