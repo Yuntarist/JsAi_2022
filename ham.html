@@ -50,27 +50,39 @@
             }
         .hamburger::before,
         .hamburger::after
-            {content:"";}
+            {
+                content:"";
+            }
         .hamburger
-            {top:50%;}
+            {
+                top:50%;
+            }
         .hamburger::before
-            {top:-30px;}
+            {
+                top:-30px;
+            }
         .hamburger::after
-            {top:30px;}
-        .toggle:checked~.hamburger::before{
-            top:0;
-            transform: rotate(135deg);
-        }
-        .toggle:checked~.hamburger::after{
-            top:0;
-            transform: rotate(225deg);
-        }
-        .toggle:checked~.hamburger{
-            background-color: var(--hamburger-bg);
-        }
-        .toggle{
-            opacity: 0;
-        }
+            {
+                top:30px;
+            }
+        .toggle:checked~.hamburger::before
+            {
+                top:0;
+                transform: rotate(135deg);
+            }
+        .toggle:checked~.hamburger::after
+            {
+                top:0;
+                transform: rotate(225deg);
+            }
+        .toggle:checked~.hamburger
+            {
+                background-color: var(--hamburger-bg);
+            }
+        .toggle
+            {
+                opacity: 0;
+            }
     </style>
 </head>
 <body>
