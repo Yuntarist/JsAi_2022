@@ -1,0 +1,18 @@
+@import"./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+@import"./variable.css";
+    *{
+        box-sizing: border-box; /* 모든 요소를 화면 안에 포함시킴, 책 예제에 보이는 별표 꼭 확인할것 */
+    }
+body    
+    {
+        font-family: 'Noto Serif KR', sans-serif;
+        background-color: var(--background-purple);
+        color: white;
+    }   
+input
+    {
+        border: none;
+        outline: none;
+        appearance: none;
+    }    
