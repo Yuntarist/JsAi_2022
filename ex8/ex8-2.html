@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/find.css">
     <style>
+        .material-icons-outlined.md-18 { font-size: 18px; }
+        .material-icons-outlined.md-24 { font-size: 24px; }
         .material-icons-outlined.md-36 { font-size: 36px; }
+        .material-icons-outlined.md-48 { font-size: 48px; }
     </style>
 </head>
 <body>
@@ -15,11 +19,23 @@
         wifi
     </span> -->
     <!-- form.find-search-bar-form>div>input.find-search-bar+span.material-icons-outlined{search} -->
-    <form action="" class="find-search-bar-form">
-        <div>
-            <input type="text" class="find-search-bar">
-            <span class="material-icons-outlined">search</span>
+    <form action="#" class="find-search-bar-form">
+        <div class="display-flex-center position-relative">
+            <input type="text" class="find-search-bar"placeholder="검색하기">
+            <span class="material-icons-outlined md-24">search</span>
         </div>
     </form>
+    <!-- div.best-movie>div.best-movie__img-container>img.best-movie__img+span.material-icons{play_arrow} -->
+    <div class="best-movie position-relative">
+        <div class="best-movie__img-container">
+            <img src="./img/topgun.png" alt="" class="best-movie__img">
+            <span class="material-icons">play_arrow</span>
+        </div>
+    <!-- div.berst-movie__title>p.best-movie__promotion-text{지금 가장 흥행하는 작품은?}+span.best-movie__movie-name{승리호} -->
+    <div class="berst-movie__title">
+        <p class="best-movie__promotion-text">지금 가장 흥행하는 작품은?</p>
+        <span class="best-movie__movie-name">탑건2 : 메버릭</span>
+    </div>
+    </div>
 </body>
 </html>
