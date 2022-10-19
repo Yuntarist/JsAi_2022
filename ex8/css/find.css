@@ -63,3 +63,24 @@
         font-size:40px;
         font-weight: 600;
     }
+.movie-recommendation
+    {
+        margin:25px;
+        padding:0 25px;
+    }
+.movie-recommendation__imges
+    {
+        margin-top: 15px;
+        list-style: none;
+        display:flex;
+        overflow:scroll;
+    }
+.movie-recommendation__imges li
+    {
+        margin-left: 5px;
+    }
+.movie-recommendation__imges img
+    {
+        width: 150px;
+        border-radius: 15px;;
+    }

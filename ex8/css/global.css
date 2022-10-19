@@ -3,6 +3,8 @@
 @import"./variable.css";
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import "./navigation-bar.css";
+@import"./media-query.css";
     *{
         box-sizing: border-box; /* 모든 요소를 화면 안에 포함시킴, 책 예제에 보이는 별표 꼭 확인할것 */
     }
