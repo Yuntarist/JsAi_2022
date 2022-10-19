@@ -17,10 +17,13 @@
     }  
 .add-profile-btn
     {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
         background-color: gray;
         width: 70px;
         height: 70px;
-        font-size: 4rem;
+        font-size: 64px;
         font-weight: 100;
         color:white;
     }  
